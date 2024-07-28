@@ -61,6 +61,7 @@ body{
       margin:0;
 
   }
+
   html{
     scroll-behavior:smooth;
   }
@@ -73,8 +74,8 @@ body{
     font-size: var(--normal-font-size);
 
   }
+
   body{
-    background-color: var(--body-color);
     color: var(--text-color);
   }
 
@@ -95,6 +96,7 @@ body{
 a{
     text-decoration: none;
 }
+
 img,svg{
     max-width: 100%;
     height: auto;
@@ -132,5 +134,27 @@ font-weight: var(--font-semi-bold);
 }
 .main{
 overflow: hidden;/*for animated*/
+}
+/*===header&nav===*/
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+}
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nav__logo{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+.nav__logo span {
+  color: var(--first-color);
 }
 
