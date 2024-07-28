@@ -137,7 +137,7 @@ font-weight: var(--font-semi-bold);
 overflow: hidden;/*for animated*/
 }
 /*===header&nav===*/
-#header{
+.header{
   position: fixed;
   width: 100%;
   background-color: var(--container-color);
@@ -165,7 +165,18 @@ overflow: hidden;/*for animated*/
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
-
 }
+/*=== navigation for mobile devices ===*/
+@media  screen and (max-width:1023px) {
+  .nav__menu{
+   position: fixed;
+   top: 0;
+   right: 0;
+   background-color: hsla(0,0%, 10%,.3);
+   width: 75%;
+   height: 100%;
+   padding: 4.5rem 0 0 3rem;
 
+  }
+}
 
