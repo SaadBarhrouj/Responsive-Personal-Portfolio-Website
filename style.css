@@ -188,12 +188,12 @@ overflow: hidden;/*for animated*/
   row-gap: 3rem;
   
 }
-.nav_link{
+.nav__link{
   color: var(--title-color);
   font-weight: var(--font-medium);
   transition: color .4s;
 }
-.nav_link:hover{
+.nav__link:hover{
   color: var(--first-color);
 }
 .nav__close{

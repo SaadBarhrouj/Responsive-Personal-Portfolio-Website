@@ -14,15 +14,21 @@ if(navToggle){
 /*===============MENU HIDDEN ===============*/
 /*validate if constant exists */
 if(navClose){
-    navToggle.addEventListener('click',()=>{
-        navClose.classList.remove('show-menu')
+    navClose.addEventListener('click',()=>{
+        navMenu.classList.remove('show-menu')
     })
 }
 
-
-
-
 /*=============== REMOVE MENU MOBILE ===============*/
+const navLink=document.querySelectorAll('.nav__link')
+
+const linkAction = ()=>{
+    const navMenu=document.getElementById('nav-menu')
+    //when we click in each nav__link , we remove the show menu
+    navMenu.classList.remove('show-menu') 
+}
+
+navLink.forEach(n => n.addEventListener('click',linkAction))
 
 
 /*=============== ADD BLUR TO HEADER ===============*/
