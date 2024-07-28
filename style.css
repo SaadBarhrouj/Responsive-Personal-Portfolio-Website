@@ -76,6 +76,7 @@ body{
   }
 
   body{
+    background-color: var(--body-color);
     color: var(--text-color);
   }
 
@@ -136,13 +137,15 @@ font-weight: var(--font-semi-bold);
 overflow: hidden;/*for animated*/
 }
 /*===header&nav===*/
-.header{
+#header{
   position: fixed;
   width: 100%;
+  background-color: var(--container-color);
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
 }
+
 .nav{
   height: var(--header-height);
   display: flex;
@@ -157,4 +160,12 @@ overflow: hidden;/*for animated*/
 .nav__logo span {
   color: var(--first-color);
 }
+.nav__toggle,.nav__close{
+  display: flex;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+
+}
+
 
