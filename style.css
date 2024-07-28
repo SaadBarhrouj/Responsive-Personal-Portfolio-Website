@@ -176,7 +176,16 @@ overflow: hidden;/*for animated*/
    width: 75%;
    height: 100%;
    padding: 4.5rem 0 0 3rem;
+   backdrop-filter: blur(24px);
+   --webkit--backdrop--filter:blur(24px);
+   transition: right .4s;
 
   }
+}
+.nav__list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  
 }
 
