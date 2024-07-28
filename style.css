@@ -171,7 +171,7 @@ overflow: hidden;/*for animated*/
   .nav__menu{
    position: fixed;
    top: 0;
-   right: 0;
+   right: -100%;
    background-color: hsla(0,0%, 10%,.3);
    width: 75%;
    height: 100%;
@@ -188,4 +188,20 @@ overflow: hidden;/*for animated*/
   row-gap: 3rem;
   
 }
-
+.nav_link{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: color .4s;
+}
+.nav_link:hover{
+  color: var(--first-color);
+}
+.nav__close{
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+/*SHOW MENU*/
+.show-menu{
+  right: 0;
+}
