@@ -323,3 +323,20 @@ justify-self: center;
 .skills__description{
   margin-bottom: 2rem;
 }
+.skills__content,
+.skills__group{
+  display: grid;
+}
+.skills__content{
+grid-template-columns: repeat(2,max-content);
+column-gap: 4rem;
+justify-content: center;
+align-items: baseline;
+}
+.skills__group{
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+.skills__item::marker{
+color: var(--first-color);
+}
