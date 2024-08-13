@@ -11,8 +11,8 @@ body{
     --header-height:3.5rem;
 
       /*===== colors =====*/
-    --hue:162;
- --first-color:hsl(var(--hue),100%,40%);
+    --hue:187;
+ --first-color:hsl(var(--hue),71%,58%);
  --first-color-alt:hsl(var(--hue),56%,35%);
  --title-color:hsl(228,8%,95%);
  --text-color:hsl(228,8%,65%);
@@ -128,7 +128,7 @@ font-weight: var(--font-semi-bold);
 }
 .section__subtitle{
     font-size: var(--small-font-size);
-    margin-bottom: 25rem;
+    margin-bottom: .25rem;
 }
 .section__subtitle span{
    color: var(--first-color);
@@ -273,4 +273,22 @@ justify-self: center;
 .button:hover{
   box-shadow: 0 8px 24px hsla(var(--hue),100%,40%,.25);
 }
-
+/*ABOUT*/
+.about__container{
+  row-gap: 2.5rem;
+}
+.about__data{
+  text-align: center;
+}
+.about__description{
+  margin-bottom: 2rem;
+}
+.about__image{
+  justify-self: center;
+}
+.about__blob{
+  width: 320px;
+}
+.about__blob path{
+  stroke: var(--first-color);
+}
