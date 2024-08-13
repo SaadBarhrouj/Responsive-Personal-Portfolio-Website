@@ -205,6 +205,22 @@ overflow: hidden;/*for animated*/
 .show-menu{
   right: 0;
 } 
+/*add blur to header*/
+.blur-header{
+  background-color: transparent;
+}
+.blur-header::after{
+  content: '';
+  position: absolute;
+  width: 1000%;
+ height: 100%;
+  background-color: hsla(0, 0%, 10%, .3);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);/*for safari*/
+  top: 0;
+  left: 0;
+  z-index:-1 ;
+}
 
 /*home*/
 .home{
@@ -291,4 +307,19 @@ justify-self: center;
 }
 .about__blob path{
   stroke: var(--first-color);
+}
+/*Skills*/
+.skills{
+  background-color: var(--container-color);
+}
+.skills__container{
+  padding-bottom: 2rem;
+  row-gap: 3.5rem;
+}
+
+.skills__data{
+  text-align: center;
+}
+.skills__description{
+  margin-bottom: 2rem;
 }
