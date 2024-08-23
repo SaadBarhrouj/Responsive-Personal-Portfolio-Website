@@ -46,7 +46,20 @@ contactMessage=document.getElementById('contact-message')
 const sendEmail=(e)=>{
     e.preventDefault()
     // serviceID - templateID - #form - publickey
-    emailjs.sendForm('service_fqelw6c', 'template_iawjnxg', '#contact')
+    emailjs.sendForm('service_fqelw6c', 'template_iawjnxg', '#contact-form', 'LNrpj69S0h9V-6GH_')
+    .then(()=> {
+        //show sent message
+        contactMessage.textContent = 'message sent successfully✅'
+        // Remove message after five seconds
+        setTimeout(()=>{
+            contactMessage.textContent=''
+
+        }, 5000)
+    }, ()=>{
+        // show error message
+        contactMessage.textContent = 'message not sent (service error)❌'
+
+    })
 }
 
 contactForm.addEventListener('submit', sendEmail)
