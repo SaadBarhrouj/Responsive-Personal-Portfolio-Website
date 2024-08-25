@@ -66,9 +66,23 @@ const sendEmail=(e)=>{
 
 contactForm.addEventListener('submit', sendEmail)
 /*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp =()=>{
+    const scrollUp=document.getElementById('scroll-up')
+    // when the scroll is higher than 350 viewport height , add the show-scroll class to 
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+    : scrollUp.classList.remove('show-scroll')
+}
 
+window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+const sections =document.querySelectorAll('section[id]')
+const scrollActive = () =>{
+    const scrollY =window.pageYOffset 
+    sections.forEach(current =>{
+        const section
+    })
+}
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
