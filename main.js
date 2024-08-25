@@ -55,6 +55,8 @@ const sendEmail=(e)=>{
             contactMessage.textContent=''
 
         }, 5000)
+        // clear input fields
+        contactForm.reset()
     }, ()=>{
         // show error message
         contactMessage.textContent = 'message not sent (service error)❌'
