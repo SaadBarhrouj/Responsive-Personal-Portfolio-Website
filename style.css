@@ -221,6 +221,10 @@ overflow: hidden;/*for animated*/
   left: 0;
   z-index:-1 ;
 }
+/*Active link*/
+.active-link{
+  color: var(--first-color);
+}
 
 /*home*/
 .home{
@@ -553,4 +557,126 @@ color: var(--first-color);
 /* show scroll up*/
 .show-scroll{
 bottom: 3rem;
+}
+/*BREAKPOINTS */
+/*for small devices*/
+@media screen and (max-width: 320px){
+.container{
+  margin-inline: 1rem;
+}
+.skills__content{
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+.services__card{
+  padding-block: 1.5rem;
+}
+
+}
+/*for medium devices*/
+@media screen and (min-width:576px){
+ .home__container,
+ .about__container,
+ .skills__container,
+ .services__container,
+ .projects__container,
+ .contact__container{
+  grid-template-columns: 360px;
+  justify-content: center;
+
+ }
+  
+  }
+  @media screen and (min-width:768px){
+   .nav__menu{
+    width: 55%;
+   }
+   .home__container,
+   .about__container,
+   .skills__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+   }
+   .home__data,
+   .about__data,
+   .skills__data
+   :is(.about__data, .skills__data):is(.section__subtitle,.section__title){
+    text-align: initial;
+   }
+   .home__social{
+    justify-content: initial;
+   }
+   .home__blob,
+   .about__blob{
+    width: 400px;
+   }
+   .about__data{
+    order: 1;
+   }
+   .services__container,
+   .projects__container{
+    grid-template-columns: repeat(2 , 352px);
+   }
+
+     }
+     /*for large devices*/
+
+@media screen and (min-width:1023px) {
+  .section{
+padding-block: 7rem 2rem;
+  }
+  .section__subtitle{
+    font-size: var(--normal-font-size);
+  }
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__close,
+  .nav__toggle{
+    display: none;
+  }
+  .nav__list{
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+  .nav__menu{
+    width: initial;
+  }
+  .blur-header::after{
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);/*for safari*/
+
+  }
+
+  
+}
+@media screen  and (min-width:1152px) {
+.container{
+  margin-inline: auto;
+}
+.home__container{
+  grid-template-columns: 455px 550px;
+  column-gap: 7rem;
+  padding-block: 2rem 3rem;
+
+}
+.home__blob{
+  width: 550px;
+}
+.home__content{
+  row-gap: .5rem;
+}
+.home__description{
+  margin-block: 1.5rem 2.5rem;
+}
+.home__social{
+  column-gap: 1.5rem;
+}
+.about__container{
+  grid-template-columns: 550px 460px;
+  column-gap: 4.5rem;
+  padding-bottom: 1rem;
+}
+
+  
 }
