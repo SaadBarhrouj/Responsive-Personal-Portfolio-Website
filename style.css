@@ -664,7 +664,7 @@ padding-block: 7rem 2rem;
   width: 550px;
 }
 .home__content{
-  row-gap: .5rem;
+  row-gap: 4.5rem;
 }
 .home__description{
   margin-block: 1.5rem 2.5rem;
@@ -676,6 +676,62 @@ padding-block: 7rem 2rem;
   grid-template-columns: 550px 460px;
   column-gap: 4.5rem;
   padding-bottom: 1rem;
+}
+.about__blob{
+  width: 550px;
+}
+.about__description{
+  margin-bottom: 3rem;
+}
+.skills__container{
+  grid-template-columns: 340px 425px;
+  column-gap: 10rem;
+  padding-bottom: 4rem;
+}
+.skills__description{
+  margin-bottom: 3rem;
+}
+.skills__content{
+  column-gap: 8rem;
+}
+.skills__group{
+  row-gap: 1.5rem;
+}
+.skills__item{
+  font-size: var(--h3-font-size);
+}
+.services__container{
+  grid-template-columns: repeat(3,352px);
+  padding-block: 2.5rem 4rem;
+}
+.services__card{
+  padding: 3.5rem 2rem;
+}
+.projects__container{
+  grid-template-columns: repeat(3, 350px);
+  row-gap: 3rem;
+  padding-block: 2.5rem 4rem ;
+
+}
+.projects__button{
+  font-size: var(--normal-font-size);
+}
+.contact__container{
+  grid-template-columns: 680px;
+  padding-block: 2.5rem 2rem;
+}
+.contact__form{
+  row-gap: 1.5rem;
+}
+.contact__group{
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+.contact__input{
+  padding: 1.5rem;
+}
+.contact__form textarea{
+  height: 20rem;
 }
 
   
