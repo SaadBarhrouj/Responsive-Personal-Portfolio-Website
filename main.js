@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/*================ SCROLL REVEAL ANIMATION ================*/
 document.addEventListener('DOMContentLoaded', () => {
     const sr = ScrollReveal({
       origin: 'top',
