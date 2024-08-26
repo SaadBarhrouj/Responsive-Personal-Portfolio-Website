@@ -99,3 +99,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+document.addEventListener('DOMContentLoaded', () => {
+    const sr = ScrollReveal({
+      origin: 'top',
+      distance: '60px',
+      duration: 1000,
+      delay: 400,
+     reset: true // animation repeat
+    });
+  
+    sr.reveal('.home__data, .home__social, .contact__container, .footer__container');
+    sr.reveal('.home__image', { origin: 'bottom' });
+    sr.reveal('.about__data, .skills_data', { origin: 'left' });
+    sr.reveal('.about__image, .skills__content', { origin: 'right' });
+    sr.reveal('.services__card, .projects__card', { interval: 100 });
+  });
+  

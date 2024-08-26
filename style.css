@@ -11,8 +11,8 @@ body{
     --header-height:3.5rem;
 
       /*===== colors =====*/
-    --hue:187;
- --first-color:hsl(var(--hue),71%,58%);
+    --hue:210;
+ --first-color:hsl(var(--hue),71%,70%);
  --first-color-alt:hsl(var(--hue),56%,35%);
  --title-color:hsl(228,8%,95%);
  --text-color:hsl(228,8%,65%);
@@ -271,7 +271,7 @@ color: var(--first-color);
 .home__social-link:hover{
   transform: translateY(-.25rem);
 }
-.home_image{
+.home__image{
 justify-self: center;
 }
 
@@ -733,6 +733,28 @@ padding-block: 7rem 2rem;
 .contact__form textarea{
   height: 20rem;
 }
+.footer{
+  padding-block: 4.5rem 4rem;
+}
+.footer__container{
+  grid-template-columns: repeat(3 , 1fr);
+  align-items: center;
+  text-align: initial;
+}
+.footer__title{
+  font-size: var(--bigger-font-size);
+}
+.footer__social{
+  column-gap: 1.5rem;
+}
 
-  
+.footer__copy{
+  margin: 0;
+  justify-content:flex-end;
+}
+.scrollup{
+  right: 3rem;
+}
+
+
 }
