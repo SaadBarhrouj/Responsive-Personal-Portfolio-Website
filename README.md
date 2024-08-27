@@ -6,7 +6,7 @@ Welcome to my **Responsive Personal Portfolio Website**! 🎨
 <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="600" style="border: 2px solid #000;">
 <br>
 <hr>
-## Description
+## **Description**
 
 This project showcases a personal portfolio website designed to present my skills, projects, and contact information. It features a modern and responsive design, ensuring it looks great on any device. The website includes sections for home, about, services, projects, and contact, each highlighting different aspects of my work and experience. 🚀
 
