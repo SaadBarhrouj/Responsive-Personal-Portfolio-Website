@@ -1,6 +1,6 @@
 # Responsive Personal Portfolio Website 🌐
 
-Welcome to my **Responsive Personal Portfolio Website**! <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 🎨
+Welcome to my **Responsive Personal Portfolio Website**!🎨 <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 
 <br>
 <hr>
 <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="600" style="border: 2px solid #000;">
