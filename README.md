@@ -4,9 +4,9 @@ Welcome to my **Responsive Personal Portfolio Website**!🎨 <p> <a href="https:
 
 <hr>
 <div style="text-align: center;">
-    <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
-    <img src="assets/img/4.projects.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
-    <img src="assets/img/5.projects.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="350" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/4.projects.png" alt="Portfolio Preview" width="350" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/5.projects.png" alt="Portfolio Preview" width="350" style="border: 2px solid #000; display: inline-block;">
 </div>
 
 
