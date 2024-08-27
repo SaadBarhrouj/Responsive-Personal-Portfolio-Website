@@ -4,10 +4,10 @@ Welcome to my **Responsive Personal Portfolio Website**!🎨 <p> <a href="https:
 
 <hr>
 <div style="text-align: center;">
-    <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="333" style="border: 2px solid #000; display: inline-block;">
-    <img src="assets/img/4.projects.png" alt="Portfolio Preview" width="333" style="border: 2px solid #000; display: inline-block;">
-    <img src="assets/img/5.projects.png" alt="Portfolio Preview" width="333" style="border: 2px solid #000; display: inline-block;">
- <img src="assets/img/6.projects.png" alt="Portfolio Preview" width="333" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="490" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/4.projects.png" alt="Portfolio Preview" width="490" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/5.projects.png" alt="Portfolio Preview" width="490" style="border: 2px solid #000; display: inline-block;">
+ <img src="assets/img/6.projects.png" alt="Portfolio Preview" width="490" style="border: 2px solid #000; display: inline-block;">
 
 </div>
 
