@@ -3,9 +3,12 @@
 Welcome to my **Responsive Personal Portfolio Website**!🎨 <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 
 
 <hr>
-<img src="assets/img/2.projects.png" alt="Portfolio Preview" width="300"display="inline" style="border: 2px solid #000;">
-<img src="assets/img/4.projects.png" alt="Portfolio Preview" width="300" display="inline"  style="border: 2px solid #000;">
-<img src="assets/img/5.projects.png" alt="Portfolio Preview" width="300"  display="inline"  style="border: 2px solid #000;">
+<div style="text-align: center;">
+    <img src="assets/img/2.projects.png" alt="Portfolio Preview" width="300" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/4.projects.png" alt="Portfolio Preview" width="300" style="border: 2px solid #000; display: inline-block;">
+    <img src="assets/img/5.projects.png" alt="Portfolio Preview" width="300" style="border: 2px solid #000; display: inline-block;">
+</div>
+
 
 
 <hr>
