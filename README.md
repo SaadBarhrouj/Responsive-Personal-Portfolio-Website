@@ -5,6 +5,8 @@ Welcome to my **Responsive Personal Portfolio Website**! 🎨
 ## Description
 
 This project showcases a personal portfolio website designed to present my skills, projects, and contact information. It features a modern and responsive design, ensuring it looks great on any device. The website includes sections for home, about, services, projects, and contact, each highlighting different aspects of my work and experience. 🚀
+![Aperçu du Projet](assets/img/2.projects.png)
+
 
 ## Features
 
