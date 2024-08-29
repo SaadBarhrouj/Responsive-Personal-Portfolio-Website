@@ -1,4 +1,4 @@
-
+ <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 
 <div style="text-align: center;">
     <img src="preview/1.preview.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
     <img src="preview/2.preview.png" alt="Portfolio Preview" width="400" style="border: 2px solid #000; display: inline-block;">
@@ -12,7 +12,7 @@
 
  # Responsive Personal Portfolio Website 🌐
 
-Welcome to my **Responsive Personal Portfolio Website**!🎨 <p> <a href="https://portfolio-saad-barhrouj.netlify.app/" target="_blank">My Portfolio</a></p> 
+Welcome to my **Responsive Personal Portfolio Website**!🎨
 
 
 
