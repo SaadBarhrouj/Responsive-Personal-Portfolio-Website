@@ -114,4 +114,29 @@ document.addEventListener('DOMContentLoaded', () => {
     sr.reveal('.about__image, .skills__content', { origin: 'right' });
     sr.reveal('.services__card, .projects__card', { interval: 100 });
   });
-  
+
+
+  /*=============== CHANGE MAIN COLOR ===============*/
+  document.getElementById('colorButton').addEventListener('click', function() {
+ 
+    const colorPicker = document.createElement('input');
+    colorPicker.type = 'color'; 
+    colorPicker.style.position = 'absolute'; 
+    colorPicker.style.top = '0';
+    colorPicker.style.left = '0';
+    colorPicker.style.zIndex = '-1'; 
+
+    document.body.appendChild(colorPicker);
+
+    colorPicker.addEventListener('input', function() {
+     
+        const color = colorPicker.value;
+        document.documentElement.style.setProperty('--first-color', color);
+    });
+
+    colorPicker.click();
+
+    colorPicker.addEventListener('blur', function() {
+        document.body.removeChild(colorPicker);
+    });
+});
