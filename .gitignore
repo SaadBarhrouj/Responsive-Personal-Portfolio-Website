@@ -1,11 +1,11 @@
 # Ignorer tous les fichiers HTML
-#*.html
+*.html
 
 # Ignorer tous les fichiers CSS
-#assets/css/*
+assets/css/*
 
-# Ignorer tous les fichiers JS
-#assets/js/*
+ Ignorer tous les fichiers JS
+assets/js/*
 
 # Ignorer tous les fichiers d'images
-#assets/img/*
+assets/img/*
