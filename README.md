@@ -8,8 +8,6 @@
     
 </div>
 
-
-
 <hr>
 
  # Responsive Personal Portfolio Website 🌐
